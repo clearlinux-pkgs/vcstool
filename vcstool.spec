@@ -4,7 +4,7 @@
 #
 Name     : vcstool
 Version  : 0.1.36
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/b5/ec/477043ca80ab60f46ef90dabf597d711226907f1037bd2e3fda39d304088/vcstool-0.1.36.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b5/ec/477043ca80ab60f46ef90dabf597d711226907f1037bd2e3fda39d304088/vcstool-0.1.36.tar.gz
 Summary  : vcstool provides a command line tool to invoke vcs commands on multiple repositories.
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532978917
+export SOURCE_DATE_EPOCH=1532979831
 python3 setup.py build -b py3
 
 %install
