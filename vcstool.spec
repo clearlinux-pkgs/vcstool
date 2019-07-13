@@ -4,7 +4,7 @@
 #
 Name     : vcstool
 Version  : 0.2.1
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/52/94/66ad79501f1d06dbd1a583d82dfa3b23674e2d311e05348cee6039635f27/vcstool-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/52/94/66ad79501f1d06dbd1a583d82dfa3b23674e2d311e05348cee6039635f27/vcstool-0.2.1.tar.gz
 Summary  : vcstool provides a command line tool to invoke vcs commands on multiple repositories.
