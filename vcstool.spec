@@ -4,7 +4,7 @@
 #
 Name     : vcstool
 Version  : 0.2.7
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/08/a3/2753aa2d108ff6eaf63e46ab2d570abab3dffd60da11ddaf7d34ee250915/vcstool-0.2.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/08/a3/2753aa2d108ff6eaf63e46ab2d570abab3dffd60da11ddaf7d34ee250915/vcstool-0.2.7.tar.gz
 Summary  : vcstool provides a command line tool to invoke vcs commands on multiple repositories.
@@ -21,9 +21,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : setuptools
 
 %description
-What is vcstool?
-================
-Vcstool is a version control system (VCS) tool, designed to make working with multiple repositories easier.
+vcstool enables batch commands on multiple different vcs repositories. Currently it supports git, hg, svn and bzr.
 
 %package bin
 Summary: bin components for the vcstool package.
@@ -55,6 +53,7 @@ python components for the vcstool package.
 Summary: python3 components for the vcstool package.
 Group: Default
 Requires: python3-core
+Provides: pypi(vcstool)
 
 %description python3
 python3 components for the vcstool package.
@@ -69,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582826786
+export SOURCE_DATE_EPOCH=1582905525
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
