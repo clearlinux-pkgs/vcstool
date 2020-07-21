@@ -1,5 +1,5 @@
 PKG_NAME := vcstool
-URL = https://files.pythonhosted.org/packages/97/c2/47d823289b8bce851a59bb19cce60c86d6ff2f4a6157887ddb0b78e6807c/vcstool-0.2.11.tar.gz
+URL = https://files.pythonhosted.org/packages/3b/aa/ee48be395ced532114395a208f4c13b2751e9d465350b1dafb5c9dd0ccf4/vcstool-0.2.13.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
